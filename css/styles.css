@@ -38,7 +38,9 @@ a:focus {
 button {
   cursor: pointer;
 }
+
 /* body */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -97,6 +99,24 @@ body {
   color: var(--navyblue);
   text-decoration: none;
   padding: 24px 0;
+  margin-bottom: 0;
+  position: relative;
+}
+.nav-page-link:focus::after,
+.nav-page-link:hover::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  border: 1px solid var(--ocean);
+  border-radius: 2px;
+  background-color: var(--ocean);
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  position: absolute;
+
+  /* margin: 0;
+  padding: 0; */
 }
 .link:active {
   color: var(--ocean);
