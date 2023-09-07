@@ -186,7 +186,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/camila-garcia.jpg);
+    url(../images/camila-garcia.jpg);
 
   background-repeat: no-repeat;
   background-size: auto;
