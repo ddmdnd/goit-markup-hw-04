@@ -310,9 +310,7 @@ body {
   margin-bottom: 72px;
 }
 .team-section-list {
-  /* background-color: #ffffff; */
   display: flex;
-  /* width: calc((100%-3) / 4); */
   padding-top: 72px;
   padding-bottom: 120px;
   margin-left: auto;
