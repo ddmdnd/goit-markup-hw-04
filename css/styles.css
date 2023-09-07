@@ -118,13 +118,15 @@ body {
   height: 4px;
   border: 1px solid var(--ocean);
   border-radius: 2px;
-  background-color: var(--ocean);
+  background-color: #404bbf;
   /* background-color: var(--ocean); */
   display: block;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 20px;
   position: absolute;
   content: 100%;
+  left: 0;
+  bottom: -1px;
 
   /* margin: 0;
   padding: 0; */
