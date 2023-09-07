@@ -252,8 +252,8 @@ body {
   margin-bottom: 8px;
 }
 .skill-section-item-image {
-  width: 64px;
-  height: 64px;
+  /* width: 64px;
+  height: 64px; */
   /* position: absolute; */
 }
 .skill-section-item {
