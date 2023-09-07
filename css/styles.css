@@ -556,6 +556,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  transition: background-color 250ms step-end;
 }
 
 .footer-social-icon {
@@ -565,4 +566,8 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+}
+.footer-social-link-item:hover,
+.footer-social-link-item:focus {
+  background-color: #31d0aa;
 }
