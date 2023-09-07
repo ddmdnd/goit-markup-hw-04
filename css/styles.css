@@ -111,8 +111,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-page-link:focus::after,
-.nav-page-link:hover::after {
+.nav-page-link::after,
+.nav-page-link::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -131,6 +131,10 @@ body {
   /* margin: 0;
   padding: 0; */
 }
+/* .nav-page-link::after,
+.nav-page-link::after {
+
+} */
 .link:active {
   color: var(--ocean);
 }
